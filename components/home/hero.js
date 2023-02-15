@@ -19,11 +19,12 @@ export default function Hero() {
                 I am very passionate about better understanding of computers and using this knowledge to solve real-world problems.
             </p>
             <div className="flex justify-center">
-                <Link href="/projects">
-                    <a className="btn-project tracking-[5px]">
+                {/* <Link href=""> */}
+                    <a className="btn-project tracking-[5px]" rel="noreferrer"
+                  target="_blank" href='https://www.linkedin.com/in/jennypark7/overlay/1635516809162/single-media-viewer/?profileId=ACoAABdhSPcBubWTc6y_e1exWoYAh2rRoy6HaWc'>
                         DOWNLOAD RESUME
                     </a>
-                </Link>
+                {/* </Link> */}
             </div>
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
